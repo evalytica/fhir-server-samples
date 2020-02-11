@@ -197,7 +197,7 @@
         }
     },
     "variables": {
-        "cosmosThroughPut": 1000,
+        "cosmosThroughPut": 400,
         "isMAG": "[or(contains(resourceGroup().location,'usgov'),contains(resourceGroup().location,'usdod'))]",
         "appServicePlanName": "[concat(variables('environmentName'),'-asp')]",
         "environmentName": "[if(empty(parameters('environmentName')), concat('fhirdemo', uniqueString(resourceGroup().id)), parameters('environmentName'))]",

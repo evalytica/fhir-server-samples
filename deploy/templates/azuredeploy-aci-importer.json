@@ -114,6 +114,9 @@
             "sku": {
                 "name": "[parameters('storageAccountType')]"
             },
+            "properties": {
+                "supportsHttpsTrafficOnly": true
+            },
             "resources": [
                 {
                     "type": "blobServices/containers",

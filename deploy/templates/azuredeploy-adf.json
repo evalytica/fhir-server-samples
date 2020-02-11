@@ -103,7 +103,9 @@
                 "name": "[parameters('storageAccountType')]"
             },
             "kind": "Storage",
-            "properties": {}
+            "properties": {
+                "supportsHttpsTrafficOnly": true
+            }
         },
         {
             "name": "[variables('adfName')]",

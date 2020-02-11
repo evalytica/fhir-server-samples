@@ -26,7 +26,7 @@ param
     [string]$FhirApiLocation = "westus2",
 
     [Parameter(Mandatory = $false)]
-    [string]$SourceRepository = "https://github.com/Microsoft/fhir-server-samples",
+    [string]$SourceRepository = "https://github.com/evalytica/fhir-server-samples",
 
     [Parameter(Mandatory = $false)]
     [string]$SourceRevision = "master",
